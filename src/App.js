@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greed from './Components/Greet';
 import Welcome from './Components/welcome';
+import Message from './Components/Message';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Welcome name= "Lemon" heroName= "Thor" />
       <Welcome name= "Mim" heroName= "Iron Man" />
       <Welcome name= "Mehedi" heroName= "Spider Man" />
+      <Message />
     </div>
   );
 }
