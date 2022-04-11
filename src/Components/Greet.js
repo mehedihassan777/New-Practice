@@ -5,7 +5,7 @@ import React from 'react'
 //     return <h1>Hello Lemon</h1>
 // }
 const Greed = props =>{
-    console.log(props)
+    const {name,heroName} = this.props
     return(
         <div>
             <h1>Hello {props.name} {props.heroName}</h1>
